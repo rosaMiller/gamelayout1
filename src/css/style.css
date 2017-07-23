@@ -8,7 +8,7 @@ body {
   color: #fff; }
 
 #logo {
-  color: #80ff42; }
+  color: #17FFC4; }
 
 .nav-link {
   color: #ba0000; }
@@ -18,7 +18,7 @@ body {
   background: none !important; }
   @media (max-width: 34em) {
     .navbar {
-      background: black !important; } }
+      background: #000 !important; } }
   .navbar .navbar-toggler {
     cursor: pointer;
     outline: 0; }
@@ -41,3 +41,7 @@ h1 {
 
 .hero-img {
   width: 80%; }
+
+.feature-wrapper {
+  background-color: #17FFC4;
+  color: #000; }

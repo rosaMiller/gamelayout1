@@ -10,7 +10,7 @@ body {
 }
 
 #logo {
-    color: #80ff42;
+    color: #17FFC4;
 }
 
 .nav-link {
@@ -22,7 +22,7 @@ body {
     background: none !important;
 
     @media (max-width: 34em) {
-        background: black !important;
+        background: #000 !important;
     }
 
 
@@ -60,4 +60,9 @@ h1 {
 
 .hero-img {
   width: 80%;
+}
+
+.feature-wrapper {
+  background-color: #17FFC4;
+  color: #000;
 }

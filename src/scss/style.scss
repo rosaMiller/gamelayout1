@@ -13,8 +13,16 @@ body {
     color: #17FFC4;
 }
 
+#logo:hover {
+  color: #808080;
+}
+
 .nav-link {
-  color: #ba0000;
+  color: #17FFC4 !important;
+}
+
+.nav-link:hover {
+  color: #808080 !important;
 }
 
 .navbar {
@@ -46,11 +54,13 @@ body {
         @media (max-width: 34em) {
           font-weight: normal;
           color: #fff !important;
-
         }
+
+
       }
     }
 }
+
 
 h1 {
   font-weight: bold;
@@ -65,4 +75,42 @@ h1 {
 .feature-wrapper {
   background-color: #17FFC4;
   color: #000;
+}
+
+.btn {
+  background-color: #17FFC4;
+}
+
+#join-container {
+  background: url('/assets/screen1.jpg') no-repeat;
+  background-size: cover;
+
+  h2 {
+    letter-spacing: 4px;
+    font-weight: bold;
+  }
+
+  h4 {
+    color: #808080;
+  }
+
+  .form-control {
+    background: #111111;
+    border: 3px solid #2F2F2F;
+    padding: 10px;
+  }
+
+  .btn {
+    padding: 12px;
+    border: none;
+    color: #000;
+    cursor: pointer;
+  }
+  .btn:hover {
+    padding: 12px;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    background-color: #808080;
+  }
 }
